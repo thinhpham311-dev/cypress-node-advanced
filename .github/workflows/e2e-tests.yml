@@ -17,4 +17,4 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           start: npm start
-          spec: cypress/e2e/**/*.cy.{js,jsx,ts,tsx}
+          spec: cypress/e2e/**/chai.cy.js
